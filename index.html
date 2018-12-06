@@ -6,23 +6,22 @@
 	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
 	<title>Web Dev Portfolio</title>
 
+	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-grid.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
-	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
+	<!-- JAVASCRIPT -->
 	<script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="assets/js/popper.min.js"></script>
-
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-
-
+	
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500|Quicksand:400,500" rel="stylesheet">
 </head>
 <body>
-	<div class="container">
+	<div id="home-section" class="container">
 		<nav id="navigationBar" class="navbar navbar-expand-lg navbar-dark bg-dark">
 			 <a class="navbar-brand" href="#">
 			 	<i id="logo" class="fas fa-pen-nib"></i>Ian Gimenez
@@ -50,7 +49,10 @@
 			<h1>Ian Carl Gimenez</h1>
 			<h4>Designer + Developer</h4>
 
-			<i class="down-arrow"></i>
+			<!-- <i class="down-arrow"></i> -->
+
+			<i class="down-arrow fas fa-chevron-circle-down animated infinite pulse delay-2"></i>
+
 
 		</div>
 
@@ -164,7 +166,7 @@
 							</p>
 
 							<div class="text-center">
-								<a href="#" class="btn btn-primary">View</a>	
+								<a href="https://iancarlgimenez.github.io/capstone1/index.html" target="_blank" class="btn btn-primary">View</a>	
 							</div>
 							
 						</div>
@@ -211,37 +213,41 @@
 			
 			<p>Need help on your next project? Message me and let's talk about it.</p>
 			<form>
-				<div class="row">
-					<div class="col">
+				<div class="form-row">
+					<div class="form-group col-lg-6 col-md-6 col-sm-12">
 						<input type="text" class="form-control" placeholder="first-name">
 					</div>
 
-					<div class="col">
+					<div class="form-group col-lg-6 col-md-6 col-sm-12">
 						<input type="text" class="form-control" placeholder="last-name">
 					</div>
 				</div>
 
-				<div class="row">
-					<div class="col">
+				<div class="form-row">
+					<div class="form-group col-lg-6 col-md-6 col-sm-12">
 						<input type="number" class="form-control" placeholder="contact number">
 					</div>
 
-					<div class="col">
-						<input type="email" class="form-control" placeholder="email address">
+					<div class="form-group col-lg-6 col-md-6 col-sm-12">
+						<input type="email" class="form-control" placeholder="name@example.com">
 					</div>
 				</div>
 
 
-				<div class="row">
+				<div class="form-group">
 					<input type="text" class="form-control" placeholder="subject">
 				</div>
 
-				<div class="row">
+				<div class="form-group">
 					 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="message"></textarea>
 				</div>
 
-				<button type="button" class="btn btn-primary btn-lg">Submit</button>
+				<div class="form-group text-center">
+					<button type="submit" class="btn btn-primary btn-lg">Send</button>
+				</div>
 			</form>
+
+
 		</div>
 
 	</div>

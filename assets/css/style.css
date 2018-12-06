@@ -36,7 +36,7 @@ body #home-jumbotron {
 	letter-spacing: 2px;
 }
 
-.down-arrow {
+/*.down-arrow {
 	width: 0;
 	height: 0;
 	border-style: solid;
@@ -45,7 +45,36 @@ body #home-jumbotron {
 	-webkit-transform:rotate(360deg);
 	position: relative;
 	top: 100px;
-}	
+}	*/
+#navigationBar {
+	padding-bottom: 0;
+}
+
+#home-section {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.navbar-nav li {
+	padding-bottom: 5px;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.navbar-nav li:hover {
+	background-color: #813B81;
+}
+
+.navbar-nav a:hover {
+	color: white;
+}
+
+
+.down-arrow {
+	color: #813B81;
+	margin-top: 30px;
+	font-size: 100px;
+}
 
 .about-section {
 	margin-bottom: 3%;
@@ -112,6 +141,45 @@ body #home-jumbotron {
 	width: 100%;
 }
 
+.card-text, .card-title {
+	font-family: 'Quicksand', sans-serif;
+}
+
 .contact-section p {
 	font-family: 'Quicksand', san-serif;
+}
+
+.contacts-section button  {
+	width: 75%;
+	background-color: #813B81;
+	border-style: none;
+	margin-top: 20px;
+}
+
+.contacts-section p {
+	margin-top: 5%;
+	font-family: 'Quicksand', sans-serif;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contacts-section form {
+	margin-top: 30px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container {
+	background-color: #D8D8D8;
+}
+
+.contacts-section .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
 }
