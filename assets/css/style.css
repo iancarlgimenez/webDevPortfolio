@@ -1,6 +1,24 @@
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+.container {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  /*margin-bottom: -50px;*/
+}
+
 #logo {
 	margin-right: 10px;
 	margin-left: 10px;
+}
+
+footer {
+  	height: 50px;
+  	line-height: 50px;
 }
 
 
@@ -17,7 +35,7 @@
 
 /* LARGE DESKSTOP SCREENS */
 @media (min-width: 1281px) {
-  
+
   	#navigationBar .navbar-brand {
 		margin-left: 6.25%;
 	}
@@ -231,4 +249,22 @@ body #home-jumbotron {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+}
+
+.project-gallery {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.project-gallery img {
+	width: 550px;
+	height: 70%;
+}
+
+footer {
+	background-color: purple;
+	color: white;
+/*	padding-top: 10px;
+	padding-bottom: 10px;*/
 }
