@@ -15,6 +15,53 @@
 	height: 100vh;
 }*/
 
+/* LARGE DESKSTOP SCREENS */
+@media (min-width: 1281px) {
+  
+  	#navigationBar .navbar-brand {
+		margin-left: 6.25%;
+	}
+
+	#navbar-nav .navbar-nav {
+		margin-right: 8.25%;
+	}
+
+}
+
+/* DESKTOP AND LAPTOP */
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+	#navigationBar .navbar-brand {
+		margin-left: 3.5%;
+	}
+
+	#navbar-nav .navbar-nav {
+		margin-right: 4%;
+	}
+
+}
+
+/* TABLETS AND IPADS */
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  
+}
+
+/* TABLETS AND IPADS (LANDSCAPE) */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  
+}
+
+
+/* MOST MOBILE DEVICES */
+@media (min-width: 320px) and (max-width: 480px) {
+	  
+}
+
+
+
+
 body #home-jumbotron {
 	height: 100vh;
 	background-color: #D8D8D8;
@@ -88,13 +135,15 @@ body #home-jumbotron {
 
 .profile-desc {
 	margin-top: 40px;
+	margin-left: 15px;
 	font-family: 'Quicksand', sans-serif;
 }
 
 .page-title {
 	font-family: 'Poppins', sans-serif;
-	font-size: 60px;
+	font-size: 30px;
 	color: #303030;
+	padding-top: 10px;
 }
 
 .about-section {
@@ -108,7 +157,7 @@ body #home-jumbotron {
 }
 
 .skill-content {
-	margin: 20px;
+	margin: 15px;
 }
 
 .skill_title {
